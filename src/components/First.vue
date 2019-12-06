@@ -16,7 +16,6 @@
                 </li>
             </ol>
         </div>
-        
         <div>
              <p>{{m2}}</p>
             <button v-on:click="reverseMessage">反转消息</button>
