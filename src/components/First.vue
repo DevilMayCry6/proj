@@ -21,6 +21,9 @@
             <button v-on:click="reverseMessage">反转消息</button>
             <p>{{m3}}</p>
             <input type="text" v-model="m3">
+            <ol>
+                <todo-item></todo-item>
+            </ol>
         </div>
     </div>
 </template>
@@ -43,6 +46,9 @@ export default {
         reverseMessage:function(){
             this.m2 = this.m2.split("").reverse().join("")
         }
+    },
+    components:{
+        template: '<li>这是个待办项</li>'
     }
 }
 </script>
