@@ -8,3 +8,4 @@ new Vue({
   router,
   render: h => h(App)
 }).$mount('#app')
+//整个项目的入口

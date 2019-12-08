@@ -25,11 +25,14 @@
                 <todo-item></todo-item>
             </ol>
         </div>
+        <div>
+            {{a}}
+        </div>
     </div>
 </template>
 <script>
 export default {
-    data(){
+    data(){ //data是一个函数
         return {
             message:"Hello Vue",
             m1:"页面加载于" + new Date().toLocaleString(),
@@ -42,13 +45,45 @@ export default {
             m3:"hello vue!"
         }
     },
+    components:{
+        template: '<li>这是个待办项</li>'
+    },
      methods:{
         reverseMessage:function(){
             this.m2 = this.m2.split("").reverse().join("")
+            this.a="test"
+        },
+    },
+
+    watch:{
+        message:function(val,oldVal){
+            console.log('new:%s,old:%s',val,oldVal)
         }
     },
-    components:{
-        template: '<li>这是个待办项</li>'
+
+    beforeCreate:function(){
+        console.log("beforeCreate")
+    },
+    created:function(){
+        console.log("created")
+    },
+    beforeMount:function(){
+        console.log("beforeMount")
+    },
+    mounted:function(){
+        console.log("mounted")
+    },
+    beforeUpdate:function(){
+        console.log('beforeUpdate')
+    },
+    updated:function(){
+        console.log('updated')
+    },
+    beforeDestroy:function(){
+        console.log('beforeDestroy')
+    },
+    destroyed:function(){
+        console.log('destroyed')
     }
 }
 </script>
