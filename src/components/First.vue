@@ -28,6 +28,7 @@
         <div>
             {{a}}
         </div>
+        <router-link to="muban">模板语法</router-link>
     </div>
 </template>
 <script>

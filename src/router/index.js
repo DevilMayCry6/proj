@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import First from '../components/First.vue'
+import Muban from '../components/Muban.vue'
 
 Vue.use(VueRouter)
 
@@ -10,6 +11,10 @@ const routes = [
     path: '/',
     // name: 'home',
     component: First
+  },
+  {
+    path:'/muban',
+    component:Muban
   },
   {
     path: '/about',
