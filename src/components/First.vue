@@ -28,7 +28,8 @@
         <div>
             {{a}}
         </div>
-        <router-link to="muban">模板语法</router-link>
+        <router-link to="muban">模板语法</router-link><br>
+        <router-link to="jssxhztq">计算属性和侦听器</router-link>
     </div>
 </template>
 <script>

@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import First from '../components/First.vue'
 import Muban from '../components/Muban.vue'
+import Jssxhztq from '../components/Jssxhztq.vue'
 
 Vue.use(VueRouter)
 
@@ -15,6 +16,10 @@ const routes = [
   {
     path:'/muban',
     component:Muban
+  },
+  {
+    path:'/jssxhztq',
+    component:Jssxhztq
   },
   {
     path: '/about',
