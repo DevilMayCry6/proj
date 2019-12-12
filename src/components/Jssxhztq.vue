@@ -1,6 +1,7 @@
 <template>
     <div>
-        {{ message.split('').reverse().join('')}}
+        <router-link to="/">返回</router-link>
+       <p>{{ message.split('').reverse().join('')}}</p> 
         <div>
             <p>Original message: "{{ message }}"</p>
              <p>Computed reversed message: "{{ reversedMessage }}"</p>

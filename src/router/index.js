@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import First from '../components/First.vue'
 import Muban from '../components/Muban.vue'
 import Jssxhztq from '../components/Jssxhztq.vue'
+import ClassAndStyle from '../components/ClassAndStyle.vue'
 
 Vue.use(VueRouter)
 
@@ -20,6 +21,10 @@ const routes = [
   {
     path:'/jssxhztq',
     component:Jssxhztq
+  },
+  {
+    path:'/classandstyle',
+    component:ClassAndStyle
   },
   {
     path: '/about',
