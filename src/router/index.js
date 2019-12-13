@@ -5,6 +5,7 @@ import First from '../components/First.vue'
 import Muban from '../components/Muban.vue'
 import Jssxhztq from '../components/Jssxhztq.vue'
 import ClassAndStyle from '../components/ClassAndStyle.vue'
+import Tjxr from '../components/Tjxr.vue'
 
 Vue.use(VueRouter)
 
@@ -25,6 +26,10 @@ const routes = [
   {
     path:'/classandstyle',
     component:ClassAndStyle
+  },
+  {
+    path:'/tjxr',
+    component:Tjxr
   },
   {
     path: '/about',

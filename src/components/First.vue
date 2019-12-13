@@ -31,6 +31,8 @@
         <router-link to="muban">模板语法</router-link><br>
         <router-link to="jssxhztq">计算属性和侦听器</router-link><br>
         <router-link to="classandstyle">Class 与 Style</router-link>
+        <br>
+        <router-link to="tjxr">条件渲染</router-link>
     </div>
 </template>
 <script>
