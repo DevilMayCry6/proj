@@ -6,6 +6,7 @@ import Muban from '../components/Muban.vue'
 import Jssxhztq from '../components/Jssxhztq.vue'
 import ClassAndStyle from '../components/ClassAndStyle.vue'
 import Tjxr from '../components/Tjxr.vue'
+import Lbxr from '../components/Lbxr.vue'
 
 Vue.use(VueRouter)
 
@@ -30,6 +31,10 @@ const routes = [
   {
     path:'/tjxr',
     component:Tjxr
+  },
+  {
+      path:'/lbxr',
+      component:Lbxr
   },
   {
     path: '/about',
