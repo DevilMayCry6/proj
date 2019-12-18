@@ -8,6 +8,7 @@ import ClassAndStyle from '../components/ClassAndStyle.vue'
 import Tjxr from '../components/Tjxr.vue'
 import Lbxr from '../components/Lbxr.vue'
 import Sjbd from '../components/Sjbd.vue'
+import Bdsrbd from '../components/Bdsrbd.vue'
 
 Vue.use(VueRouter)
 
@@ -36,6 +37,10 @@ const routes = [
   {
       path:'/lbxr',
       component:Lbxr
+  },
+  {
+      path:'/bdsrbd',
+      component:Bdsrbd
   },
   {
       path:'/sjbd',

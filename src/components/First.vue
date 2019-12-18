@@ -33,7 +33,8 @@
         <router-link to="classandstyle">Class 与 Style</router-link><br>
         <router-link to="tjxr">条件渲染</router-link><br>
         <router-link to="lbxr">列表渲染</router-link><br>
-        <router-link to="sjbd">事件绑定</router-link>
+        <router-link to="sjbd">事件绑定</router-link><br>
+        <router-link to="bdsrbd">表单输入绑定</router-link>
     </div>
 </template>
 <script>
